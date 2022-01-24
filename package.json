@@ -1,6 +1,6 @@
 {
   "name": "@pancakeswap-libs/uikit",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/goosedefi/goose-uikit",
+  "repository": "https://github.com/pixel-dragons/goose-uikit",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
@@ -76,6 +76,7 @@
     "styled-components": "^5.2.0"
   },
   "dependencies": {
+    "@pancakeswap-libs/uikit": "^0.29.4",
     "@types/lodash": "^4.14.162",
     "@types/styled-system": "^5.1.10",
     "lodash": "^4.17.20",
